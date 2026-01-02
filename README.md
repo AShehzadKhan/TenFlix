@@ -1,16 +1,35 @@
-# React + Vite
+Movie Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie web application built using React and Tailwind CSS that allows users to search for movies, view trending searches, and interact with real-time data through API integration. The app uses Appwrite as a Backend-as-a-Service (BaaS) for backend functionalities.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="50" />
+  <img src="https://avatars.githubusercontent.com/u/25003669?s=200&v=4" alt="Appwrite" width="50" />
+</p>Frontend: React, Tailwind CSS
 
-## Expanding the ESLint configuration
+Backend as a Service: Appwrite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API: The Movie Database(TMDB) API
+
+
+
+---
+
+Features
+
+Movie search functionality with real-time API integration
+
+Trending movies based on user searches within the app
+
+Dynamic and responsive UI built with Tailwind CSS
+
+Appwrite is used to manage backend services like data storage and tracking trending searches.
+
+Clean and modern user experience
+
